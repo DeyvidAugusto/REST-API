@@ -15,3 +15,5 @@ CREATE TABLE item_pedido (
     preco DECIMAL(10,2),
     FOREIGN KEY (pedido_id) REFERENCES pedido(id)
 );
+
+-- Não adicinei dados de exemplo, mas você pode inserir alguns registros para testar as consultas.

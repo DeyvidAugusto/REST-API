@@ -17,21 +17,31 @@ Este projeto é uma API REST para gerenciamento de pedidos, construída com Fast
 ## Estrutura de Pastas e Arquivos
 
 ```
-IWS/
+REST-API/
 └── rest/
-    ├── [`IWS/rest/app.py`](IWS/rest/app.py )                # Arquivo principal da aplicação FastAPI
+    ├── [`REST-API/rest/app.py`](REST-API/rest/app.py )                # Arquivo principal da aplicação FastAPI
     ├── config/
     │   └── database.py       # Configuração do banco de dados (SQLAlchemy)
-    ├── models/
-    │   └── base.py           # Modelos ORM (tabelas)
-    ├── repositories/
-    │   └── pedido_repository.py # Regras de acesso ao banco de dados
-    ├── services/
-    │   └── pedido_service.py # Lógica de negócio
     ├── controllers/
     │   └── pedido_controller.py # Controladores das rotas
-    └── schemas/
-        └── schema.py         # Schemas Pydantic para validação e resposta
+    |   └── cliente_controller.py # Controladores das rotas
+    ├── models/
+    │   ├── base.py           # Modelos ORM (tabelas)
+    |   ├── cliente.py        # Modelo da tabela Cliente
+    |   ├── item_pedido.py    # Modelo da tabela Item_pedido
+    |   └── pedido.py         # Modelo da tabela pedido
+    ├── repositories/
+    │   ├── cliente_repository.py     # Regras de acesso ao banco de dados para clientes
+    │   ├── generic_repository.py     # Implementação genérica de operações CRUD
+    │   ├── icliente_repository.py    # Interface para cliente_repository
+    │   ├── igeneric_repository.py    # Interface para generic_repository
+    │   ├──  ipedido_repository.py     # Interface para pedido_repository
+    │   └── pedido_repository.py      # Regras de acesso ao banco de dados para pedidos
+    ├── schemas/
+    |   └── schema.py         # Schemas Pydantic para validação e resposta
+    └── services/
+        ├──  pedido_service.py # Lógica de negócio
+        └──  cliente_service.py # Lógica de negócio
 ```
 
 ---
