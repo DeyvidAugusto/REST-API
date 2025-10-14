@@ -76,4 +76,4 @@ if __name__ == "__main__":
     # Configurar SelectorEventLoop no Windows para evitar erros de conexão
     if platform.system() == "Windows":
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-    uvicorn.run(app, host="localhost", port=8000, timeout_graceful_shutdown=10)
+    uvicorn.run("app:app", host="localhost", port=8000, timeout_graceful_shutdown=10, reload=True)
