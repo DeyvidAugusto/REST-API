@@ -35,7 +35,7 @@ REST-API/
     │   ├── generic_repository.py     # Implementação genérica de operações CRUD
     │   ├── icliente_repository.py    # Interface para cliente_repository
     │   ├── igeneric_repository.py    # Interface para generic_repository
-    │   ├──  ipedido_repository.py     # Interface para pedido_repository
+    │   ├── ipedido_repository.py     # Interface para pedido_repository
     │   └── pedido_repository.py      # Regras de acesso ao banco de dados para pedidos
     ├── schemas/
     |   └── schema.py         # Schemas Pydantic para validação e resposta
