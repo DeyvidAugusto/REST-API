@@ -19,29 +19,29 @@ Este projeto é uma API REST para gerenciamento de pedidos, construída com Fast
 ```
 REST-API/
 └── rest/
-    ├── [`REST-API/rest/app.py`](REST-API/rest/app.py )                # Arquivo principal da aplicação FastAPI
-    ├── config/
-    │   └── database.py       # Configuração do banco de dados (SQLAlchemy)
-    ├── controllers/
-    │   └── pedido_controller.py # Controladores das rotas
-    |   └── cliente_controller.py # Controladores das rotas
-    ├── models/
-    │   ├── base.py           # Modelos ORM (tabelas)
-    |   ├── cliente.py        # Modelo da tabela Cliente
-    |   ├── item_pedido.py    # Modelo da tabela Item_pedido
-    |   └── pedido.py         # Modelo da tabela pedido
-    ├── repositories/
-    │   ├── cliente_repository.py     # Regras de acesso ao banco de dados para clientes
-    │   ├── generic_repository.py     # Implementação genérica de operações CRUD
-    │   ├── icliente_repository.py    # Interface para cliente_repository
-    │   ├── igeneric_repository.py    # Interface para generic_repository
-    │   ├── ipedido_repository.py     # Interface para pedido_repository
-    │   └── pedido_repository.py      # Regras de acesso ao banco de dados para pedidos
-    ├── schemas/
-    |   └── schema.py         # Schemas Pydantic para validação e resposta
-    └── services/
-        ├──  pedido_service.py # Lógica de negócio
-        └──  cliente_service.py # Lógica de negócio
+   ├── [`REST-API/rest/app.py`](REST-API/rest/app.py )                # Arquivo principal da aplicação FastAPI
+   ├── config/
+   │   └── database.py       # Configuração do banco de dados (SQLAlchemy)
+   ├── controllers/
+   │   └── pedido_controller.py # Controladores das rotas
+   |   └── cliente_controller.py # Controladores das rotas
+   ├── models/
+   │   ├── base.py           # Modelos ORM (tabelas)
+   |   ├── cliente.py        # Modelo da tabela Cliente
+   |   ├── item_pedido.py    # Modelo da tabela Item_pedido
+   |   └── pedido.py         # Modelo da tabela pedido
+   ├── repositories/
+   │   ├── cliente_repository.py     # Regras de acesso ao banco de dados para clientes
+   │   ├── generic_repository.py     # Implementação genérica de operações CRUD
+   │   ├── icliente_repository.py    # Interface para cliente_repository
+   │   ├── igeneric_repository.py    # Interface para generic_repository
+   │   ├── ipedido_repository.py     # Interface para pedido_repository
+   │   └── pedido_repository.py      # Regras de acesso ao banco de dados para pedidos
+   ├── schemas/
+   |   └── schema.py         # Schemas Pydantic para validação e resposta
+   └── services/
+      ├──  pedido_service.py # Lógica de negócio
+      └──  cliente_service.py # Lógica de negócio
 ```
 
 ---
@@ -103,3 +103,25 @@ Utilize o Swagger UI ou ferramentas como Postman, Insomnia, ou curl para testar 
 - Para rodar no Windows, o loop de eventos é ajustado automaticamente.
 
 ---
+
+### Prints dos comandos com Swagger UI
+# Atualizar Cliente
+[![Atualizar Cliente](prints/atualizarCliente.png)](prints/atualizarCliente.png)
+# Atualizar Pedido
+[![Atualizar Cliente](prints/atualizarPedido.png)](prints/atualizarPedido.png)
+# Criar Cliente
+[![Atualizar Cliente](prints/criarCliente.png)](prints/criarCliente.png)
+# Criar Pedido
+[![Atualizar Cliente](prints/criarPedido.png)](prints/criarPedido.png)
+# Deletar Cliente
+[![Atualizar Cliente](prints/deletarCliente.png)](prints/deletarCliente.png)
+# Deletar Pedido
+[![Atualizar Cliente](prints/deletarPedido.png)](prints/deletarPedido.png)
+# Ler Cliente
+[![Atualizar Cliente](prints/lerCliente.png)](prints/lerCliente.png)
+# Ler Pedido
+[![Atualizar Cliente](prints/lerPedido.png)](prints/lerPedido.png)
+# Listar Cliente
+[![Atualizar Cliente](prints/listarCliente.png)](prints/listarCliente.png)
+# Listar Pedido
+[![Atualizar Cliente](prints/listarPedido.png)](prints/listarPedido.png)
