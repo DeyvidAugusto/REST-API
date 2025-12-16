@@ -106,22 +106,22 @@ Utilize o Swagger UI ou ferramentas como Postman, Insomnia, ou curl para testar 
 
 ### Prints dos comandos com Swagger UI
 # Atualizar Cliente
-[![Atualizar Cliente](prints/atualizarCliente.png)](prints/atualizarCliente.png)
+[![Atualizar Cliente](rest/prints/atualizarCliente.png)](prints/atualizarCliente.png)
 # Atualizar Pedido
-[![Atualizar Cliente](prints/atualizarPedido.png)](prints/atualizarPedido.png)
+[![Atualizar Cliente](rest/prints/atualizarPedido.png)](prints/atualizarPedido.png)
 # Criar Cliente
-[![Atualizar Cliente](prints/criarCliente.png)](prints/criarCliente.png)
+[![Atualizar Cliente](rest/prints/criarCliente.png)](prints/criarCliente.png)
 # Criar Pedido
-[![Atualizar Cliente](prints/criarPedido.png)](prints/criarPedido.png)
+[![Atualizar Cliente](rest/prints/criarPedido.png)](prints/criarPedido.png)
 # Deletar Cliente
-[![Atualizar Cliente](prints/deletarCliente.png)](prints/deletarCliente.png)
+[![Atualizar Cliente](rest/prints/deletarCliente.png)](prints/deletarCliente.png)
 # Deletar Pedido
-[![Atualizar Cliente](prints/deletarPedido.png)](prints/deletarPedido.png)
+[![Atualizar Cliente](rest/prints/deletarPedido.png)](prints/deletarPedido.png)
 # Ler Cliente
-[![Atualizar Cliente](prints/lerCliente.png)](prints/lerCliente.png)
+[![Atualizar Cliente](rest/prints/lerCliente.png)](prints/lerCliente.png)
 # Ler Pedido
-[![Atualizar Cliente](prints/lerPedido.png)](prints/lerPedido.png)
+[![Atualizar Cliente](rest/prints/lerPedido.png)](prints/lerPedido.png)
 # Listar Cliente
-[![Atualizar Cliente](prints/listarCliente.png)](prints/listarCliente.png)
+[![Atualizar Cliente](rest/prints/listarCliente.png)](prints/listarCliente.png)
 # Listar Pedido
-[![Atualizar Cliente](prints/listarPedido.png)](prints/listarPedido.png)
+[![Atualizar Cliente](rest/prints/listarPedido.png)](prints/listarPedido.png)
